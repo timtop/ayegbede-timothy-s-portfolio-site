@@ -1,0 +1,20 @@
+.nav {
+  width: 100%;
+  background-color: white;
+  /* height: 90px; */
+}
+.nav-logo {
+  width: 4%;
+  padding: 10px 0px;
+}
+.nav-items {
+  list-style: none;
+  display: flex;
+  width: 55%;
+  justify-content: space-around;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
