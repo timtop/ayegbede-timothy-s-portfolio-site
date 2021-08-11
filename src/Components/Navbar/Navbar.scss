@@ -1,0 +1,38 @@
+@import "../../Style/style.scss";
+
+.nav {
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+
+  &-logo {
+    width: 7%;
+    padding: 10px 0px;
+  }
+
+  &-item {
+    cursor: pointer;
+    color: $fontColor;
+  }
+  &-items {
+    list-style: none;
+    display: flex;
+    width: 55%;
+    justify-content: space-around;
+
+    &-active {
+      color: $primaryColor;
+    }
+    &-inactive {
+      color: $fontColor;
+    }
+  }
+
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

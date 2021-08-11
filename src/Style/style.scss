@@ -1,0 +1,35 @@
+$primaryColor: #fc6701;
+$fontColor: #333d47;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Playfair+Display&display=swap");
+
+.bd-text-w {
+  font-family: "Inter", sans-serif;
+  color: $fontColor;
+  font-size: 16px;
+}
+.hd-text-w {
+  font-family: "Playfair Display", serif;
+  color: $fontColor;
+  font-size: 20px;
+}
+
+body {
+  background-color: #fbfbfd;
+  color: $fontColor;
+  & a {
+    text-decoration: none;
+    color: $fontColor;
+  }
+}
+
+.container {
+  margin: 0 auto;
+  width: 75%;
+}
