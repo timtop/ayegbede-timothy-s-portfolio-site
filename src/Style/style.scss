@@ -1,5 +1,6 @@
 $primaryColor: #fc6701;
 $fontColor: #333d47;
+$successColor: #27ae60;
 
 * {
   box-sizing: border-box;
@@ -17,7 +18,13 @@ $fontColor: #333d47;
 .hd-text-w {
   font-family: "Playfair Display", serif;
   color: $fontColor;
-  font-size: 20px;
+  font-size: 45px;
+}
+
+.bd-text-success-w {
+  font-family: "Inter", sans-serif;
+  color: $successColor;
+  font-size: 16px;
 }
 
 body {
@@ -32,4 +39,16 @@ body {
 .container {
   margin: 0 auto;
   width: 75%;
+}
+
+.clearmargin {
+  margin-top: 75px;
+}
+
+.margin-top-16 {
+  margin-top: 16px;
+}
+
+.padding-left-16 {
+  padding-left: 1rem;
 }

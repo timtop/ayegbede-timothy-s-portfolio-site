@@ -1,0 +1,15 @@
+@import "../../Style/style.scss";
+
+.primary-btn {
+  padding: 16px 24px;
+  border: none;
+  background-color: $primaryColor;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.primary-btn-img {
+  padding-left: 12px;
+}

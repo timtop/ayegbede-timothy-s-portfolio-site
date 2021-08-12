@@ -1,6 +1,6 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useRef, useEffect } from "react";
 import { Link } from "gatsby";
-import { window, document } from "browser-monads";
+// import { window } from "browser-monads";
 
 import "./Navbar.scss";
 
@@ -27,26 +27,24 @@ const navItems = [
 
 //Component begins
 const Navbar = () => {
-  const [currentScroll, setCurrentScroll] = useState(window.pageYOffset);
+  //This Ref is to get the DOM node for NavBar
   const navRef = useRef();
-  let prevScrollpos;
+  //This Ref is to create a mutable value
+  let prevScrollRef = useRef(0);
 
   useEffect(() => {
-    prevScrollpos = window.pageYOffset;
-    console.log(prevScrollpos);
-  }, []);
+    prevScrollRef.current = window.pageYOffset;
 
-  window.onscroll = function () {
-    setCurrentScroll(window.pageYOffset);
-    if (prevScrollpos > currentScroll) {
-      navRef.current.style.top = "0px";
-    } else {
-      navRef.current.style.top = "-70px";
-    }
-    prevScrollpos = currentScroll;
-  };
-
-  console.log(currentScroll);
+    window.onscroll = function () {
+      let currentScrollPos = window.pageYOffset;
+      if (prevScrollRef.current > currentScrollPos) {
+        navRef.current.style.top = "0px";
+      } else {
+        navRef.current.style.top = "-75px";
+      }
+      prevScrollRef.current = currentScrollPos;
+    };
+  });
 
   return (
     <div ref={navRef} className="nav">

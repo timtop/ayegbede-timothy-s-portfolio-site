@@ -6,6 +6,7 @@
   position: fixed;
   top: 0;
   z-index: 100;
+  transition: top 0.3s;
 
   &-logo {
     width: 7%;
@@ -19,7 +20,7 @@
   &-items {
     list-style: none;
     display: flex;
-    width: 55%;
+    width: 70%;
     justify-content: space-around;
 
     &-active {
