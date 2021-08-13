@@ -34,12 +34,16 @@ const Navbar = () => {
 
   useEffect(() => {
     prevScrollRef.current = window.pageYOffset;
-
     window.onscroll = function () {
       let currentScrollPos = window.pageYOffset;
+
+      if (currentScrollPos > 10) {
+        navRef.current.style.boxShadow = "0px 3px 4px rgba(0, 0, 0, 0.1)";
+      } else {
+        navRef.current.style.boxShadow = "none";
+      }
       if (prevScrollRef.current >= currentScrollPos) {
         navRef.current.style.top = "0px";
-        navRef.current.style.boxShadow = "0px 3px 4px rgba(0, 0, 0, 0.1)";
       } else {
         navRef.current.style.top = "-75px";
       }

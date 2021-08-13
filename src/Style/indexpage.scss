@@ -1,5 +1,27 @@
 @import "../Style/style.scss";
 
+body {
+  background-image: url("../images/Background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: contain;
+}
+
+.index-page {
+  // height: 100vh;
+  // margin-top: 100px;
+}
+
 .green-active {
   display: flex;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &-picture {
+    width: 50%;
+  }
 }
