@@ -1,17 +1,5 @@
 @import "../Style/style.scss";
 
-body {
-  background-image: url("../images/Background.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: contain;
-}
-
-.index-page {
-  // height: 100vh;
-  // margin-top: 100px;
-}
-
 .green-active {
   display: flex;
 }
@@ -19,9 +7,41 @@ body {
 .hero {
   display: flex;
   align-items: center;
+  width: 100%;
   justify-content: space-between;
+  position: absolute;
+  top: 45%;
+  right: 50%;
+  transform: translate(50%, -50%);
+
+  &-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
   &-picture {
-    width: 50%;
+    width: 80%;
   }
+  &-socials {
+    margin-top: 40px;
+    & > a {
+      margin-right: 30px;
+      fill: $fontColor;
+
+      &:hover {
+        fill: $primaryColor;
+        transition: fill 0.3s;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.flexchild {
+  flex: 1;
+}
+
+svg:hover {
+  fill: $primaryColor;
 }

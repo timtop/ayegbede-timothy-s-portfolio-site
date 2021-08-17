@@ -1,6 +1,7 @@
 $primaryColor: #fc6701;
 $fontColor: #333d47;
 $successColor: #27ae60;
+$BackgroundColour: #fbfbfd;
 
 * {
   box-sizing: border-box;
@@ -15,10 +16,21 @@ $successColor: #27ae60;
   color: $fontColor;
   font-size: 16px;
 }
+.bd-text-w-btn {
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-size: 16px;
+}
 .hd-text-w {
   font-family: "Playfair Display", serif;
   color: $fontColor;
   font-size: 45px;
+}
+
+.line-btn-text-w {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  color: $fontColor;
 }
 
 .bd-text-success-w {
@@ -28,7 +40,7 @@ $successColor: #27ae60;
 }
 
 body {
-  background-color: #fbfbfd;
+  background-color: $BackgroundColour;
   color: $fontColor;
   & a {
     text-decoration: none;

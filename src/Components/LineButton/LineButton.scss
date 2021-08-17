@@ -1,0 +1,25 @@
+@import "../../Style/style.scss";
+
+.line-button {
+  position: absolute;
+  top: 85%;
+  right: 50%;
+  //   transform: translate(50%, -50%);
+  &-btn {
+    background-color: transparent;
+    border-style: solid;
+    padding: 8px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-width: 6px;
+    border-bottom-color: $primaryColor;
+    border-radius: 0px 0px 5px 5px;
+    cursor: pointer;
+
+    &:hover {
+      padding-bottom: 0px;
+      transition: padding 0.3s;
+    }
+  }
+}

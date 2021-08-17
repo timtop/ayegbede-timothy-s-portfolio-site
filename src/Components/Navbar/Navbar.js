@@ -8,7 +8,7 @@ import Timlogo from "../../images/Tim logo.png";
 
 const navItems = [
   {
-    navItem: "Project",
+    navItem: "Projects",
     navigation: "/Projects",
   },
   {
