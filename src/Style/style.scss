@@ -62,5 +62,50 @@ body {
 }
 
 .padding-left-16 {
-  padding-left: 1rem;
+  padding-left: 16px;
+}
+
+//Media queries
+/* Screen size 650px and below */
+@media (max-width: 650px) {
+  //layout
+  .container {
+    margin: 0 auto;
+    width: 85%;
+  }
+  //Nav CSS
+
+  //body css
+  .bd-text-m {
+    font-family: "Inter", sans-serif;
+    color: $fontColor;
+    font-size: 16px;
+  }
+
+  .hd-text-m {
+    font-family: "Playfair Display", serif;
+    color: $fontColor;
+    font-size: 34px;
+  }
+
+  .line-btn-text-w {
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    color: $fontColor;
+  }
+
+  .bd-text-success-m {
+    font-family: "Inter", sans-serif;
+    color: $successColor;
+    font-size: 12px;
+  }
+  .margin-top-mobile {
+    margin-top: 20%;
+  }
+  .mobile-break {
+    display: none;
+  }
+  .padding-left-16 {
+    padding-left: 8px;
+  }
 }

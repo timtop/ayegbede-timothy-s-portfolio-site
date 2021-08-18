@@ -2,6 +2,7 @@
 
 .green-active {
   display: flex;
+  align-items: flex-start;
 }
 
 .hero {
@@ -44,4 +45,32 @@
 
 svg:hover {
   fill: $primaryColor;
+}
+
+/* Screen size 650px and below */
+@media (max-width: 650px) {
+  //Nav CSS
+
+  //body css
+  .hero {
+    display: block;
+
+    &-text {
+      width: 100%;
+      position: static;
+    }
+    &-image {
+      width: 100%;
+    }
+    &-picture {
+      width: 100%;
+    }
+    &-socials {
+      margin-top: 30px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
 }

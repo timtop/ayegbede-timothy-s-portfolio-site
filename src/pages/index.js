@@ -19,16 +19,16 @@ const Index = () => {
   return (
     <div className="index-page">
       <Navbar />
-      <div className="container hero ">
-        <div className="hero-text flexchild">
-          <p className="hd-text-w">
+      <div className="container hero margin-top-mobile">
+        <div className="hero-text flexchild margin-top-mobile">
+          <p className="hd-text-w hd-text-m">
             Hi, <br /> I'm Ayegbede Timothy
           </p>
-          <p className="bd-text-w margin-top-16 ">
+          <p className="bd-text-w bd-text-m margin-top-16 ">
             I’m a Product Designer and Frontend
-            <br /> Developer based in Lagos Nigeria.
+            <br className="mobile-break" /> Developer based in Lagos Nigeria.
           </p>
-          <div className="margin-top-16 bd-text-success-w green-active">
+          <div className="margin-top-16 bd-text-success-w bd-text-success-m green-active">
             <img src={activelogo} alt="Green Active" className="activelogo" />
 
             <span className="padding-left-16 green-active-text">
@@ -37,7 +37,7 @@ const Index = () => {
           </div>
           <PrimaryButton margin="margin-top-16" />
         </div>
-        <div className="flexchild hero-image">
+        <div className="flexchild hero-image margin-top-mobile">
           <img src={heroPicture} alt="My face" className="hero-picture" />
           <div className="hero-socials">
             <a
@@ -117,8 +117,8 @@ const Index = () => {
             </a>
           </div>
         </div>
+        <LineButton />
       </div>
-      <LineButton />
     </div>
   );
 };

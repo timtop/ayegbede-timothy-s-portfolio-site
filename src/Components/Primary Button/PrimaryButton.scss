@@ -13,3 +13,13 @@
     width: 28%;
   }
 }
+
+@media (max-width: 650px) {
+  .primary-btn {
+    padding: 16px 16px;
+    &-img {
+      padding-left: 8px;
+      width: 30px;
+    }
+  }
+}
