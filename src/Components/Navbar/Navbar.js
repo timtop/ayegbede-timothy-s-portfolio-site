@@ -97,7 +97,7 @@ const Navbar = () => {
             d="M1 1H26.6667M1 8H26.6667M1 15H26.6667"
             stroke="#333D47"
             strokeWidth="2"
-            stroke-miterlimit="10"
+            strokeMiterlimit="10"
             strokeLinecap="round"
           />
         </svg>
