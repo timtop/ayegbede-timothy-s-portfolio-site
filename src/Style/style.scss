@@ -11,28 +11,40 @@ $BackgroundColour: #fbfbfd;
 
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Playfair+Display&display=swap");
 
+//Body text web
 .bd-text-w {
   font-family: "Inter", sans-serif;
   color: $fontColor;
   font-size: 16px;
 }
+//Body text white button
 .bd-text-w-btn {
   font-family: "Inter", sans-serif;
   color: white;
   font-size: 16px;
 }
+//Header text web
 .hd-text-w {
   font-family: "Playfair Display", serif;
   color: $fontColor;
   font-size: 45px;
 }
 
+//Smaller header text web
+.hd-text-w-smaller {
+  font-family: "Playfair Display", serif;
+  color: $fontColor;
+  font-size: 32px;
+}
+
+//Line button text web
 .line-btn-text-w {
   font-family: "Playfair Display", serif;
   font-size: 20px;
   color: $fontColor;
 }
 
+//Bodt text succes web
 .bd-text-success-w {
   font-family: "Inter", sans-serif;
   color: $successColor;
@@ -40,6 +52,7 @@ $BackgroundColour: #fbfbfd;
 }
 
 body {
+  overscroll-behavior: none;
   background-color: $BackgroundColour;
   color: $fontColor;
   & a {
@@ -82,10 +95,17 @@ body {
     font-size: 16px;
   }
 
+  //Smaller header text mobile
+  .hd-text-w-smaller {
+    font-family: "Playfair Display", serif;
+    color: $fontColor;
+    font-size: 24px;
+  }
+
   .hd-text-m {
     font-family: "Playfair Display", serif;
     color: $fontColor;
-    font-size: 34px;
+    font-size: 24px;
   }
 
   .line-btn-text-w {
