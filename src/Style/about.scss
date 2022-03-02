@@ -1,25 +1,96 @@
 @import "../Style/style.scss";
 
-.about {
-  // margin-top: 120px;
-  display: flex;
-  justify-content: center;
+.about-header {
+  margin-top: 59px;
   background-color: white;
-  padding-top: 120px;
+  padding-bottom: 30px;
 
-  &-head {
-    &::after {
-      content: "";
-      display: block;
-      left: 0px;
-      bottom: -12px;
-      height: 6px;
-      width: 35%;
-      background-color: $primaryColor;
-      transition: width 0.25s ease 0s;
+  &_wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &_description {
+    margin-top: 24px;
+  }
+}
+
+.design {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  justify-content: space-between;
+  &-img {
+    width: 50%;
+  }
+  &-description {
+    &_text {
+      margin-top: 12px;
     }
   }
 }
 
-@media (max-width: 768px) {
+.dev {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  justify-content: space-between;
+  &-img {
+    width: 50%;
+  }
+  &-description {
+    &_text {
+      margin-top: 12px;
+    }
+  }
+}
+
+.resume {
+  background-color: white;
+  padding: 30px;
+
+  &-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &-section {
+    &_headerdes {
+      margin-top: 12px;
+    }
+  }
+
+  &-btn {
+    text-align: center;
+  }
+}
+
+@media (max-width: 769px) {
+  .design {
+    flex-direction: column-reverse;
+    gap: 0;
+    &-description {
+      padding-top: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &-img {
+      width: 70%;
+    }
+  }
+  .dev {
+    flex-direction: column;
+    gap: 0;
+    &-description {
+      padding-top: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &-img {
+      width: 70%;
+    }
+  }
 }

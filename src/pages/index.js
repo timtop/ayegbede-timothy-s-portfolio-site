@@ -23,10 +23,10 @@ const Index = () => {
         <div className=" container hero margin-top-mobile">
           <div className="hero-text flexchild margin-top-mobile">
             <p className="hd-text-w hd-text-m">
-              Hi, <br /> I'm Ayegbede Timothy
+              Hi, <br /> I'm Timothy Ayegbede
             </p>
             <p className="bd-text-w bd-text-m margin-top-16 ">
-              I’m a Product Designer and Frontend
+              I'm a Product Designer and Frontend
               <br className="mobile-break" /> Developer based in Lagos Nigeria.
             </p>
             <div className="margin-top-16 bd-text-success-w bd-text-success-m green-active">
@@ -36,13 +36,18 @@ const Index = () => {
                 Currently available for freelance projects
               </span>
             </div>
-            <PrimaryButton margin="margin-top-16" />
+            <PrimaryButton
+              value="Contact me"
+              margin="margin-top-16"
+              icon={true}
+            />
           </div>
+
           <div className="flexchild hero-image margin-top-mobile">
             <img src={heroPicture} alt="My face" className="hero-picture" />
             <div className="hero-socials">
               <a
-                href="https://www.linkedin.com/in/timothy-ayegbede-1b32b216a/"
+                href="https://linkedin.com/in/timothy-ayegbede-1b32b216a/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -87,7 +92,7 @@ const Index = () => {
               </a>
 
               <a
-                href="https://www.instagram.com/just_timothy_/"
+                href="https://instagram.com/just_timothy_/"
                 target="_blank"
                 rel="noreferrer"
               >

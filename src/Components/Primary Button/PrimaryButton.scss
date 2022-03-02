@@ -1,6 +1,7 @@
 @import "../../Style/style.scss";
 
 .primary-btn {
+  cursor: pointer;
   padding: 16px 24px;
   border: none;
   background-color: $primaryColor;
