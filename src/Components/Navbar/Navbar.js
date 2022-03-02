@@ -35,17 +35,23 @@ const Navbar = () => {
 
   useEffect(() => {
     prevScrollRef.current = window.pageYOffset;
+    console.log(prevScrollRef.current + " prev scroll first");
     window.onscroll = function () {
       let currentScrollPos = window.pageYOffset;
+      console.log(currentScrollPos + " current scroll");
 
+      // Adding the shadow when there is a scroll
       if (currentScrollPos > 10) {
         navRef.current.style.boxShadow = "0px 3px 4px rgba(0, 0, 0, 0.1)";
       } else {
         navRef.current.style.boxShadow = "none";
       }
+      console.log(prevScrollRef.current + " prev scroll second");
+
+      //
       if (prevScrollRef.current >= currentScrollPos) {
         navRef.current.style.top = "0px";
-      } else {
+      } else if (currentScrollPos > 75) {
         navRef.current.style.top = "-75px";
       }
       prevScrollRef.current = currentScrollPos;
