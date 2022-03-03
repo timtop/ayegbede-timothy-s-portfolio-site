@@ -33,7 +33,7 @@ const Index = () => {
               <img src={activelogo} alt="Green Active" className="activelogo" />
 
               <span className="padding-left-16 green-active-text">
-                Currently available for freelance projects
+                I'm currently available to work
               </span>
             </div>
             <PrimaryButton

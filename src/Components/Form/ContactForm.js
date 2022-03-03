@@ -46,11 +46,16 @@ const ContactForm = () => {
         <label htmlFor="service">
           <p>Select service</p>
           <select id="service" {...register("service", { required: true })}>
+            <option value="">--Please choose an option--</option>
             <option value="Say hi">Just want to say hi</option>
             <option value="Dev">Need me for a dev project</option>
             <option value="Design">Need me for a design project</option>
           </select>
         </label>
+        {errors.service?.type === "required" && (
+          <p>Opps! you forgot the select a service</p>
+        )}
+
         <br />
         <br />
         {/* Message */}
