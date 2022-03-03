@@ -77,7 +77,7 @@ const Index = () => {
               </a>
 
               <a
-                href="https://github.com/timtop"
+                href="https://www.github.com/timtop"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -92,7 +92,7 @@ const Index = () => {
               </a>
 
               <a
-                href="https://instagram.com/just_timothy_/"
+                href="https://www.instagram.com/just_timothy_/"
                 target="_blank"
                 rel="noreferrer"
               >
