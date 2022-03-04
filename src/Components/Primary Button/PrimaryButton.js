@@ -3,7 +3,7 @@ import React from "react";
 import "./PrimaryButton.scss";
 import Rocket from "../../images/Rocket.svg";
 
-const PrimaryButton = ({ margin, value, icon }) => {
+const PrimaryButton = ({ margin, value, icon, width }) => {
   return (
     <div>
       <button className={`primary-btn bd-text-w-btn ${margin}`}>
@@ -12,7 +12,7 @@ const PrimaryButton = ({ margin, value, icon }) => {
           src={Rocket}
           alt="Rocket Emoji"
           className="primary-btn-img"
-          style={{ display: icon === true ? "flex" : "none" }}
+          style={{ display: icon === true ? "flex" : "none", width: { width } }}
         />
       </button>
     </div>
