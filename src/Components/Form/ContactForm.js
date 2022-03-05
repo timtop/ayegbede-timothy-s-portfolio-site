@@ -3,8 +3,7 @@ import { useForm } from "react-hook-form";
 import PrimaryButton from "../Primary Button/PrimaryButton";
 import "./ContactForm.scss";
 
-const BOTAPI =
-  "https://api.telegram.org/bot5178704020:AAHj1UAIi-CfhVgrbAEqllD_MdtVAysdAx4/sendMessage";
+const BOTAPI = `https://api.telegram.org/bot${process.env.GATSBY_TELEGRAM_BOTAPI}/sendMessage`;
 
 const ContactForm = () => {
   const [submitted, setSubmitted] = useState(false);
@@ -16,7 +15,7 @@ const ContactForm = () => {
     formState: { errors },
   } = useForm();
   // const doSubmit = (data) => console.log(data);
-  console.log(errors);
+  // console.log(errors);
 
   function showThankYou() {
     return (
@@ -29,7 +28,7 @@ const ContactForm = () => {
     );
   }
 
-  const showSubmitError = (msg) => <p className="msg-error">{msg}</p>;
+  // const showSubmitError = (msg) => <p className="msg-error">{msg}</p>;
 
   const doSubmit = async (data) => {
     const dataBody = {
