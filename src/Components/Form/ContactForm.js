@@ -1,19 +1,35 @@
-import React from "react";
+import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import PrimaryButton from "../Primary Button/PrimaryButton";
 import "./ContactForm.scss";
 
+const BOTAPI =
+  "https://api.telegram.org/bot5178704020:AAHj1UAIi-CfhVgrbAEqllD_MdtVAysdAx4/sendMessage";
+
 const ContactForm = () => {
-  // const [submitted, setSubmitted] = useState(false);
+  const [submitted, setSubmitted] = useState(false);
   const {
     register,
     handleSubmit,
+    setError,
+    reset,
     formState: { errors },
   } = useForm();
   // const doSubmit = (data) => console.log(data);
   console.log(errors);
-  const BOTAPI =
-    "https://api.telegram.org/bot5178704020:AAHj1UAIi-CfhVgrbAEqllD_MdtVAysdAx4/sendMessage";
+
+  function showThankYou() {
+    return (
+      <div className="msg-confirm">
+        <p>Awesome! Your message was sent.</p>
+        <button type="button" onClick={() => setSubmitted(false)}>
+          Send another message?
+        </button>
+      </div>
+    );
+  }
+
+  const showSubmitError = (msg) => <p className="msg-error">{msg}</p>;
 
   const doSubmit = async (data) => {
     const dataBody = {
@@ -31,13 +47,15 @@ const ContactForm = () => {
           "Content-type": "application/json; charset=UTF-8",
         },
       });
-      // setSubmitted(true);
-      // reset();
+      setSubmitted(true);
+      reset();
     } catch (error) {
-      console.log(error);
-      // setError(
-      //   "submit",
-      //   "submit
+      // console.log(error);
+      setError(
+        "submit",
+        "submitError",
+        `Oops! There seems to be an issue! ${error.message}`
+      );
     }
   };
 
@@ -113,7 +131,11 @@ const ContactForm = () => {
     );
   }
 
-  return <div>{showForm()}</div>;
+  return (
+    <div>
+      <div>{submitted ? showThankYou() : showForm()}</div>
+    </div>
+  );
 };
 
 export default ContactForm;
