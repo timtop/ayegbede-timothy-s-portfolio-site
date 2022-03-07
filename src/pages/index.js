@@ -1,6 +1,7 @@
 import React from "react";
 //Css import
 import "../Style/indexpage.scss";
+import { Link } from "gatsby";
 
 //Component youtu
 import Navbar from "../Components/Navbar/Navbar";
@@ -123,7 +124,9 @@ const Index = () => {
               </a>
             </div>
           </div>
-          <LineButton />
+          <Link to="/Projects">
+            <LineButton content="Check out my work" />
+          </Link>
         </div>
       </div>
     </div>

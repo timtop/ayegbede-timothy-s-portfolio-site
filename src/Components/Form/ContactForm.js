@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import PrimaryButton from "../Primary Button/PrimaryButton";
 import "./ContactForm.scss";
+import success from "../../images/success.svg";
+import LineButtonMain from "../LineButtonMain/LineButtonMain";
 
 const BOTAPI = `https://api.telegram.org/bot${process.env.GATSBY_TELEGRAM_BOTAPI}/sendMessage`;
 
@@ -20,10 +22,17 @@ const ContactForm = () => {
   function showThankYou() {
     return (
       <div className="msg-confirm">
-        <p>Awesome! Your message was sent.</p>
-        <button type="button" onClick={() => setSubmitted(false)}>
+        <img src={success} alt="Message sent" className="msg-confirm-img" />
+        <p className="bd-text-w">
+          Hey! I just got you message, I would reachout shortly
+        </p>
+        {/* <button type="button" onClick={() => setSubmitted(false)}>
           Send another message?
-        </button>
+        </button> */}
+        <LineButtonMain
+          content="Send another message"
+          propClick={() => setSubmitted(false)}
+        />
       </div>
     );
   }
@@ -132,6 +141,7 @@ const ContactForm = () => {
 
   return (
     <div>
+      {/* {showThankYou()} */}
       <div>{submitted ? showThankYou() : showForm()}</div>
     </div>
   );

@@ -1,0 +1,32 @@
+@import "../../Style/style.scss";
+
+.line-button-main {
+  //Relative to the browser window
+  &-btn {
+    background-color: transparent;
+    border-style: solid;
+    padding: 8px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-width: 6px;
+    border-bottom-color: $primaryColor;
+    border-radius: 0px 0px 5px 5px;
+    cursor: pointer;
+
+    // margin-top: 80px;
+    // margin-bottom: 34px;
+
+    &:hover {
+      padding-bottom: 0px;
+      transition: padding 0.3s;
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  .line-button button {
+    white-space: nowrap;
+    width: 100%;
+  }
+}
