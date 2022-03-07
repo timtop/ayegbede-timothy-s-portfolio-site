@@ -37,11 +37,13 @@ const Index = () => {
                 I'm currently available to work
               </span>
             </div>
-            <PrimaryButton
-              value="Contact me"
-              margin="margin-top-16"
-              icon={true}
-            />
+            <Link to="/Contact">
+              <PrimaryButton
+                value="Contact me"
+                margin="margin-top-16"
+                icon={true}
+              />
+            </Link>
           </div>
 
           <div className="flexchild hero-image margin-top-mobile">
