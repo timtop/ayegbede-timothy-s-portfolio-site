@@ -36,6 +36,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    & a {
+      max-width: 50%;
+    }
   }
 
   & svg {

@@ -1,7 +1,6 @@
 import React from "react";
 //Css import
 import "../Style/indexpage.scss";
-import { Link } from "gatsby";
 
 //Component youtu
 import Navbar from "../Components/Navbar/Navbar";
@@ -37,13 +36,12 @@ const Index = () => {
                 I'm currently available to work
               </span>
             </div>
-            <Link to="/Contact">
-              <PrimaryButton
-                value="Contact me"
-                margin="margin-top-16"
-                icon={true}
-              />
-            </Link>
+            <PrimaryButton
+              value="Contact me"
+              margin="margin-top-16"
+              icon={true}
+              route="/Contact"
+            />
           </div>
 
           <div className="flexchild hero-image margin-top-mobile">
@@ -126,9 +124,7 @@ const Index = () => {
               </a>
             </div>
           </div>
-          <Link to="/Projects">
-            <LineButton content="Check out my work" />
-          </Link>
+          <LineButton content="Check out my work" route="/Projects" />
         </div>
       </div>
     </div>

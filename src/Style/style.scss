@@ -1,3 +1,5 @@
+@import "./reset.scss";
+
 $primaryColor: #fc6701;
 $fontColor: #333d47;
 $successColor: #27ae60;
@@ -16,6 +18,7 @@ $BackgroundColour: #fbfbfd;
   font-family: "Inter", sans-serif;
   color: $fontColor;
   font-size: 16px;
+  line-height: 24px;
 }
 //Body text white button
 .bd-text-w-btn {
@@ -28,6 +31,7 @@ $BackgroundColour: #fbfbfd;
   font-family: "Playfair Display", serif;
   color: $fontColor;
   font-size: 45px;
+  line-height: 50px;
 }
 
 //Smaller header text web
@@ -40,6 +44,7 @@ $BackgroundColour: #fbfbfd;
   font-family: "Playfair Display", serif;
   color: $fontColor;
   font-size: 25px;
+  line-height: 35px;
 }
 
 //Line button text web
@@ -68,7 +73,8 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 75%;
+  width: 70%;
+  max-width: 1400px;
 }
 
 .clearmargin {
@@ -111,6 +117,7 @@ body {
     font-family: "Playfair Display", serif;
     color: $fontColor;
     font-size: 32px;
+    line-height: 35px;
   }
 
   .line-btn-text-w {
@@ -132,5 +139,34 @@ body {
   }
   .padding-left-16 {
     padding-left: 8px;
+  }
+}
+
+// Min screen size of 651 to 768
+@media screen and (max-width: 769px) and (min-width: 651px) {
+  .hd-text-w {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .bd-text-w {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+  .bd-text-success-w {
+    font-family: "Inter", sans-serif;
+    color: #27ae60;
+    font-size: 12px;
+  }
+  .green-active {
+    align-items: center;
+  }
+  .bd-text-w-btn {
+    font-size: 12px;
+  }
+  svg {
+    width: 20px;
+  }
+  .hero-socials {
+    margin-top: 20px;
   }
 }
