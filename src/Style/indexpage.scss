@@ -26,6 +26,7 @@
   }
   &-socials {
     margin-top: 40px;
+    z-index: 100;
     & > a {
       margin-right: 30px;
       fill: $fontColor;
