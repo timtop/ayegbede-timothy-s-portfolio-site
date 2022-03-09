@@ -1,0 +1,19 @@
+.card {
+  max-width: calc(100% / 2 - 20px);
+  &-img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  &-title {
+    margin-top: 16px;
+  }
+  &-role {
+    margin-top: 4px;
+  }
+}
+
+@media (max-width: 425px) {
+  .card {
+    max-width: 100%;
+  }
+}
