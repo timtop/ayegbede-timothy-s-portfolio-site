@@ -27,10 +27,10 @@ const Tabs = () => {
       {/* Tab stuffs */}
       <div className="outlet container">
         <TabContent id="tab1" activeTab={activeTab}>
-          <p>Design</p>
+          <div>Design</div>
         </TabContent>
         <TabContent id="tab2" activeTab={activeTab}>
-          <p>Front-End Development!</p>
+          <div>Front-End Development!</div>
         </TabContent>
       </div>
     </div>
