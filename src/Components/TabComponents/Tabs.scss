@@ -1,0 +1,24 @@
+@import "../../Style/style.scss";
+
+.project-tab {
+  background-color: white;
+  padding: 20px 0px 0px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 48.859px;
+  //   position: fixed;
+}
+
+// TabNavItem styling
+.tabactive {
+  color: $primaryColor;
+  border-bottom: 4px solid $primaryColor;
+  border-radius: 4px;
+}
+
+ul button {
+  background-color: white;
+  border: none;
+  padding-bottom: 20px;
+}
