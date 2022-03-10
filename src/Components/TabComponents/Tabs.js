@@ -38,16 +38,6 @@ const Tabs = () => {
       title: "Splufix Project Managament Tool",
       role: "Product Designer",
     },
-    {
-      image: moov,
-      title: "Moov - A ride-hailing app",
-      role: "Product Designer",
-    },
-    {
-      image: moov,
-      title: "Moov - A ride-hailing app",
-      role: "Product Designer",
-    },
   ];
 
   useEffect(() => {

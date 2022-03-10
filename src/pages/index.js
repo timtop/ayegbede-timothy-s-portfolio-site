@@ -4,6 +4,7 @@ import "../Style/indexpage.scss";
 
 //Component youtu
 import Navbar from "../Components/Navbar/Navbar";
+// import Img from "../Components/Img/Img";
 
 //image import
 import activelogo from "../images/Active.svg";
@@ -46,6 +47,14 @@ const Index = () => {
 
           <div className="flexchild hero-image margin-top-mobile">
             <img src={heroPicture} alt="My face" className="hero-picture" />
+            {/* <Img
+              src={heroPicture}
+              alt="My face"
+              width={1080}
+              height={1080}
+              className="hero-picture"
+            /> */}
+
             <div className="hero-socials">
               <a
                 href="https://linkedin.com/in/timothy-ayegbede-1b32b216a/"
