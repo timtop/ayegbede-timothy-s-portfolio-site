@@ -4,6 +4,10 @@ import TabContent from "./TabContent";
 import "./Tabs.scss";
 
 import moov from "../../images/thumbnails/Moov Thumbnail.jpg";
+import Performa from "../../images/thumbnails/Smart Performa Thumbnail.png";
+import Delivered from "../../images/thumbnails/Its Delivered Thumbnail.png";
+import Splufix from "../../images/thumbnails/Splufix Thumbnail.jpg";
+
 import Cards from "../Cards/Cards";
 
 const Tabs = () => {
@@ -20,18 +24,18 @@ const Tabs = () => {
       role: "Product Designer",
     },
     {
-      image: moov,
-      title: "Moov - A ride-hailing app",
+      image: Performa,
+      title: "Smart Performa",
       role: "Product Designer",
     },
     {
-      image: moov,
-      title: "Moov - A ride-hailing app",
+      image: Delivered,
+      title: "Its Delivered",
       role: "Product Designer",
     },
     {
-      image: moov,
-      title: "Moov - A ride-hailing app",
+      image: Splufix,
+      title: "Splufix Project Managament Tool",
       role: "Product Designer",
     },
     {

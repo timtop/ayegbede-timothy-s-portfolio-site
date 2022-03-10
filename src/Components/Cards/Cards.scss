@@ -1,15 +1,16 @@
 .card {
   max-width: calc(100% / 2 - 20px);
   &-img {
-    width: 100%;
+    max-width: 100%;
     border-radius: 10px;
+    height: auto;
   }
   &-title {
     margin-top: 16px;
   }
-  &-role {
-    margin-top: 4px;
-  }
+  //   &-role {
+  //     margin-top: 2px;
+  //   }
 }
 
 @media (max-width: 425px) {
