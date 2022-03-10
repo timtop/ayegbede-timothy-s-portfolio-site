@@ -4,7 +4,7 @@ import "../Style/indexpage.scss";
 
 //Component youtu
 import Navbar from "../Components/Navbar/Navbar";
-// import Img from "../Components/Img/Img";
+import Img from "../Components/Img/Img";
 
 //image import
 import activelogo from "../images/Active.svg";
@@ -21,8 +21,8 @@ const Index = () => {
     <div>
       <Navbar />
       <div className="index-page">
-        <div className=" container hero margin-top-mobile">
-          <div className="hero-text flexchild margin-top-mobile">
+        <div className=" container hero ">
+          <div className="hero-text flexchild">
             <p className="hd-text-w hd-text-m">
               Hi, <br /> I'm Timothy Ayegbede
             </p>
@@ -45,15 +45,11 @@ const Index = () => {
             />
           </div>
 
-          <div className="flexchild hero-image margin-top-mobile">
-            <img src={heroPicture} alt="My face" className="hero-picture" />
-            {/* <Img
-              src={heroPicture}
-              alt="My face"
-              width={1080}
-              height={1080}
-              className="hero-picture"
-            /> */}
+          <div className="flexchild hero-image">
+            {/* <img src={heroPicture} alt="My face" className="hero-picture" /> */}
+            <div>
+              <Img src={heroPicture} alt="My face" width={1080} height={1080} />
+            </div>
 
             <div className="hero-socials">
               <a
@@ -133,6 +129,8 @@ const Index = () => {
               </a>
             </div>
           </div>
+        </div>
+        <div className="container checkout">
           <LineButton content="Check out my work" route="/Projects" />
         </div>
       </div>

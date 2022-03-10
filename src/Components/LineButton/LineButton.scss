@@ -2,12 +2,14 @@
 
 .line-button {
   //Relative to the browser window
-  position: absolute;
-  top: 95%;
-  right: 50%;
-  transform: translate(50%, -50%);
+  // position: absolute;
+  // top: 95%;
+  // right: 50%;
+  // transform: translate(50%, -50%);
+  text-align: center;
+  margin-top: 30px;
+
   &-btn {
-    position: static;
     background-color: transparent;
     border-style: solid;
     padding: 8px;
@@ -19,8 +21,8 @@
     border-radius: 0px 0px 5px 5px;
     cursor: pointer;
 
-    margin-top: 80px;
-    margin-bottom: 34px;
+    // margin-top: 80px;
+    // margin-bottom: 34px;
 
     &:hover {
       padding-bottom: 0px;
@@ -29,9 +31,8 @@
   }
 }
 
-@media (max-width: 650px) {
-  .line-button button {
-    white-space: nowrap;
-    width: 100%;
-  }
-}
+// @media (max-width: 650px) {
+//   .line-button {
+//     margin-top: 40px;
+//   }
+// }
