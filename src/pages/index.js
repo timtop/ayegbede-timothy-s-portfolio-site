@@ -48,7 +48,12 @@ const Index = () => {
           <div className="flexchild hero-image">
             {/* <img src={heroPicture} alt="My face" className="hero-picture" /> */}
             <div>
-              <Img src={heroPicture} alt="My face" width={1080} height={1080} />
+              <Img
+                src={heroPicture}
+                alt="My Potrait"
+                width={1080}
+                height={1080}
+              />
             </div>
 
             <div className="hero-socials">

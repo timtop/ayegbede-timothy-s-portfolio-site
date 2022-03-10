@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../Components/Navbar/Navbar";
 import Tabs from "../Components/TabComponents/Tabs";
+import Footer from "../Components/Footer/Footer";
 
 const Projects = () => {
   return (
@@ -32,6 +33,7 @@ const Projects = () => {
           does it come from?
         </div> */}
       </div>
+      <Footer />
     </div>
   );
 };

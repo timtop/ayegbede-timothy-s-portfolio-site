@@ -3,6 +3,7 @@ import "../Style/contact.scss";
 import confettii from "../images/confetii-2.png";
 import Navbar from "../Components/Navbar/Navbar";
 import ContactForm from "../Components/Form/ContactForm";
+import Footer from "../Components/Footer/Footer";
 
 const Contact = () => {
   return (
@@ -41,6 +42,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
