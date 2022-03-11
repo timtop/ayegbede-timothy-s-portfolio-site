@@ -4,6 +4,7 @@ import Navbar from "../Components/Navbar/Navbar";
 import design from "../images/Design-Image.svg";
 import dev from "../images/Developer-Image.svg";
 import PrimaryButton from "../Components/Primary Button/PrimaryButton";
+import Footer from "../Components/Footer/Footer";
 
 const HomePage = () => {
   return (
@@ -66,6 +67,7 @@ const HomePage = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };
