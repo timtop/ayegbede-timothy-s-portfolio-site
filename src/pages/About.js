@@ -1,15 +1,16 @@
 import * as React from "react";
 import "../Style/about.scss";
-import Navbar from "../Components/Navbar/Navbar";
+// import Navbar from "../Components/Navbar/Navbar";
 import design from "../images/Design-Image.svg";
 import dev from "../images/Developer-Image.svg";
 import PrimaryButton from "../Components/Primary Button/PrimaryButton";
-import Footer from "../Components/Footer/Footer";
+// import Footer from "../Components/Footer/Footer";
+import Layout from "../Layout/Layout";
 
 const HomePage = () => {
   return (
-    <>
-      <Navbar />
+    <Layout>
+      {/* <Navbar /> */}
       <div className="about-header ">
         <div className="container">
           <div className="about-header_wrap">
@@ -67,8 +68,8 @@ const HomePage = () => {
           </div>
         </div>
       </div>
-      <Footer />
-    </>
+      {/* <Footer /> */}
+    </Layout>
   );
 };
 

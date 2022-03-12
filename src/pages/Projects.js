@@ -1,12 +1,13 @@
 import React from "react";
-import Navbar from "../Components/Navbar/Navbar";
+// import Navbar from "../Components/Navbar/Navbar";
 import Tabs from "../Components/TabComponents/Tabs";
-import Footer from "../Components/Footer/Footer";
+// import Footer from "../Components/Footer/Footer";
+import Layout from "../Layout/Layout";
 
 const Projects = () => {
   return (
-    <div>
-      <Navbar />
+    <Layout>
+      {/* <Navbar /> */}
 
       <div className="">
         <Tabs />
@@ -33,8 +34,8 @@ const Projects = () => {
           does it come from?
         </div> */}
       </div>
-      <Footer />
-    </div>
+      {/* <Footer /> */}
+    </Layout>
   );
 };
 

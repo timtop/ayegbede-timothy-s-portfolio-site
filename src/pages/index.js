@@ -12,6 +12,7 @@ import PrimaryButton from "../Components/Primary Button/PrimaryButton";
 import profilePicture2 from "../images/profile-picture-1.png";
 import profilePicture1 from "../images/profile-picture-2.png";
 import LineButton from "../Components/LineButton/LineButton";
+// import Layout from "../Layout/Layout";
 
 const Index = () => {
   const number = Math.floor(Math.random() * 2) + 1;

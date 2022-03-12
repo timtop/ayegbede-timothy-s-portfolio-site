@@ -1,14 +1,15 @@
 import React from "react";
 import "../Style/contact.scss";
 import confettii from "../images/confetii-2.png";
-import Navbar from "../Components/Navbar/Navbar";
+// import Navbar from "../Components/Navbar/Navbar";
 import ContactForm from "../Components/Form/ContactForm";
-import Footer from "../Components/Footer/Footer";
+// import Footer from "../Components/Footer/Footer";
+import Layout from "../Layout/Layout";
 
 const Contact = () => {
   return (
-    <div>
-      <Navbar />
+    <Layout>
+      {/* <Navbar /> */}
       <div className="contact-header ">
         <div className="container">
           <div className="contact-header_wrap">
@@ -42,8 +43,8 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <Footer />
-    </div>
+      {/* <Footer /> */}
+    </Layout>
   );
 };
 
