@@ -1,13 +1,12 @@
 import * as React from "react";
-import Navbar from "../Components/Navbar/Navbar";
+import Layout from "../Layout/Layout";
 
 // markup
 const NotFoundPage = () => {
   return (
-    <div>
-      <Navbar />
+    <Layout>
       <div style={{ marginTop: "90px" }}>Page not found now</div>
-    </div>
+    </Layout>
   );
 };
 
