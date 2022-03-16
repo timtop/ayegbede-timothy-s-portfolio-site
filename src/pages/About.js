@@ -1,16 +1,14 @@
 import * as React from "react";
 import "../Style/about.scss";
-// import Navbar from "../Components/Navbar/Navbar";
-import design from "../images/Design-Image.svg";
-import dev from "../images/Developer-Image.svg";
+// import design from "../images/Design-Image.svg";
+// import dev from "../images/Developer-Image.svg";
 import PrimaryButton from "../Components/Primary Button/PrimaryButton";
-// import Footer from "../Components/Footer/Footer";
 import Layout from "../Layout/Layout";
+import { StaticImage } from "gatsby-plugin-image";
 
 const HomePage = () => {
   return (
     <Layout>
-      {/* <Navbar /> */}
       <div className="about-header ">
         <div className="container">
           <div className="about-header_wrap">
@@ -27,7 +25,15 @@ const HomePage = () => {
       </div>
 
       <div className="design container">
-        <img src={design} alt="Design" className="design-img" />
+        {/* <img src={design} alt="Design" className="design-img" /> */}
+        <StaticImage
+          src="../images/Design-Image.svg"
+          alt="Design"
+          placeholder="blurred"
+          className="design-img"
+          // width={200}
+          // height={200}
+        />
         <div className="design-description">
           <div className="hd-text-w-smaller">Designer</div>
           <p className="design-description_text bd-text-w">
@@ -45,7 +51,13 @@ const HomePage = () => {
             user-experience journey into a smooth and intuitive interaction.
           </p>
         </div>
-        <img src={dev} alt="Developer" className="dev-img" />
+        {/* <img src={dev} alt="Developer" className="dev-img" /> */}
+        <StaticImage
+          src="../images/Developer-Image.svg"
+          alt="Design"
+          placeholder="blurred"
+          className="design-img"
+        />
       </div>
 
       <div className="resume ">
@@ -68,7 +80,6 @@ const HomePage = () => {
           </div>
         </div>
       </div>
-      {/* <Footer /> */}
     </Layout>
   );
 };

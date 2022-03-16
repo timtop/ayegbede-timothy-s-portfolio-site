@@ -7,11 +7,14 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `markdown-pages`,
-        path: `${__dirname}/src/markdown-pages`,
+        name: `design-projects`,
+        path: `${__dirname}/src/design-projects`,
       },
     },
     `gatsby-plugin-sass`,
     `gatsby-transformer-remark`,
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
   ],
 };

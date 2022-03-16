@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import PrimaryButton from "../Primary Button/PrimaryButton";
 import "./ContactForm.scss";
-import success from "../../images/success.svg";
+// import success from "../../images/success.svg";
 import LineButtonMain from "../LineButtonMain/LineButtonMain";
+import { StaticImage } from "gatsby-plugin-image";
 
 const BOTAPI = `https://api.telegram.org/bot${process.env.GATSBY_TELEGRAM_BOTAPI}/sendMessage`;
 
@@ -22,7 +23,13 @@ const ContactForm = () => {
   function showThankYou() {
     return (
       <div className="msg-confirm">
-        <img src={success} alt="Message sent" className="msg-confirm-img" />
+        {/* <img src={success} alt="Message sent" className="msg-confirm-img" /> */}
+        <StaticImage
+          src="../../images/success.svg"
+          alt="Design"
+          placeholder="blurred"
+          className="msg-confirm-img"
+        />
         <p className="bd-text-w">
           Hey! I just got you message, I would reachout shortly
         </p>

@@ -22,21 +22,31 @@ const Tabs = () => {
       image: moov,
       title: "Moov - A ride-hailing app",
       role: "Product Designer",
+      route: "/design/moov",
     },
     {
       image: Performa,
       title: "Smart Performa",
       role: "Product Designer",
+      route: "/design/smart-performa",
     },
     {
       image: Delivered,
       title: "Its Delivered",
       role: "Product Designer",
+      route: "/design/smart-performa",
     },
     {
       image: Splufix,
       title: "Splufix Project Managament Tool",
       role: "Product Designer",
+      route: "/design/smart-performa",
+    },
+    {
+      image: Splufix,
+      title: "Splufix Project Managament Tool",
+      role: "Product Designer",
+      route: "/design/smart-performa",
     },
   ];
 
@@ -84,7 +94,12 @@ const Tabs = () => {
           <div className="card-holder">
             {cardItems.map((item) => {
               return (
-                <Cards image={item.image} title={item.title} role={item.role} />
+                <Cards
+                  image={item.image}
+                  title={item.title}
+                  role={item.role}
+                  route={item.route}
+                />
               );
             })}
           </div>
