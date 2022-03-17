@@ -18,7 +18,8 @@ const NotFoundPage = () => {
           quality="100"
         />
         <p className="err-text bd-text-w">
-          Hey! You just visited a broken link click the button to go home{" "}
+          Hey! You just visited a link that doesn't exist, click the button
+          below to go home{" "}
         </p>
         <LineButton content="Home" route="/" />
       </div>{" "}
