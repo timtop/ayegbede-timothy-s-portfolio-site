@@ -22,31 +22,31 @@ const Tabs = () => {
       image: moov,
       title: "Moov - A ride-hailing app",
       role: "Product Designer",
-      route: "/design/moov",
+      route: "./Design/Moov",
     },
     {
       image: Performa,
       title: "Smart Performa",
       role: "Product Designer",
-      route: "/design/smart-performa",
+      route: "./Design/Smart-Performa",
     },
     {
       image: Delivered,
       title: "Its Delivered",
       role: "Product Designer",
-      route: "/design/smart-performa",
+      route: "./Design/Its-Delivered",
     },
     {
       image: Splufix,
       title: "Splufix Project Managament Tool",
       role: "Product Designer",
-      route: "/design/smart-performa",
+      route: "./Design/Splufix",
     },
     {
       image: Splufix,
       title: "Splufix Project Managament Tool",
       role: "Product Designer",
-      route: "/design/smart-performa",
+      route: "./Design/Splufix",
     },
   ];
 

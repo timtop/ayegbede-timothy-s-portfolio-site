@@ -8,7 +8,7 @@ const Blog = () => {
     <Layout>
       {/* <Navbar /> */}
       <div>
-        <p style={{ marginTop: " 48.859px" }}> This is the blog page</p>
+        <p style={{ marginTop: " 90px" }}> This is the blog page</p>
       </div>
       {/* <Footer /> */}
     </Layout>

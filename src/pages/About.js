@@ -31,8 +31,7 @@ const HomePage = () => {
           alt="Design"
           placeholder="blurred"
           className="design-img"
-          // width={200}
-          // height={200}
+          quality="100"
         />
         <div className="design-description">
           <div className="hd-text-w-smaller">Designer</div>
@@ -57,6 +56,7 @@ const HomePage = () => {
           alt="Design"
           placeholder="blurred"
           className="design-img"
+          quality="100"
         />
       </div>
 

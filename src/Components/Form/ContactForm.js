@@ -29,6 +29,7 @@ const ContactForm = () => {
           alt="Design"
           placeholder="blurred"
           className="msg-confirm-img"
+          quality="100"
         />
         <p className="bd-text-w">
           Hey! I just got you message, I would reachout shortly
