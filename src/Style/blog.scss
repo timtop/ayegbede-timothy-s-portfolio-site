@@ -1,0 +1,56 @@
+@import "../Style/style.scss";
+.blog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  margin-top: 58px !important;
+  &-img {
+    width: 200px;
+    height: 200px;
+  }
+
+  &-text {
+    margin-top: 30px;
+    font-weight: 600 !important;
+  }
+
+  &-tags {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.design-badge {
+  background-color: #fef3c7;
+  color: #92400e !important;
+  border-radius: 20px;
+  padding: 4px 12px;
+}
+
+.dev-badge {
+  background-color: #dbeafe;
+  color: #1e40af !important;
+  border-radius: 20px;
+  padding: 4px 12px;
+}
+
+.faith-badge {
+  background-color: #fbe5d7;
+  color: #fc6701 !important;
+  border-radius: 20px;
+  padding: 4px 12px;
+}
+
+.lifestyle-badge {
+  background-color: #e3daf2;
+  color: #5b21b6 !important;
+  border-radius: 20px;
+  padding: 4px 12px;
+}
