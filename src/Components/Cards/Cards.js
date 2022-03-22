@@ -11,7 +11,10 @@ const Cards = ({ image, title, role, route }) => {
       </Link>
       {/* <img src={image} alt="Moov Thumbnail" className="card-img" /> */}
       <p className="card-title hd-text-w-smaller-small">{title}</p>
-      <p className="card-role bd-text-w">{role}</p>
+      <div className="card-role">
+        {" "}
+        <span className="card-role bd-text-w design-badge">{role}</span>
+      </div>
     </div>
   );
 };

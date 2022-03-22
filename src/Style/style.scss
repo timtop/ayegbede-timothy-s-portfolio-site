@@ -13,6 +13,25 @@ $BackgroundColour: #fbfbfd;
 
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Playfair+Display&display=swap");
 
+////////////ARTICLE FONTS///////////////
+.article-bd-web-text {
+  font-family: "Inter", sans-serif;
+  color: $fontColor;
+  font-size: 16px;
+  line-height: 40px;
+  // font-weight: 300;
+}
+
+.article-bd-header-text {
+  font-family: "Inter", sans-serif;
+  color: $fontColor;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+////////////ARTICLE FONTS///////////////
+
 //Body text web
 .bd-text-w {
   font-family: "Inter", sans-serif;
@@ -85,9 +104,43 @@ body {
   margin-top: 18px;
 }
 
+.margin-top-20 {
+  margin-top: 24px;
+}
+
 .padding-left-16 {
   padding-left: 16px;
 }
+
+/////////////////////////////////////////BADGES CSS///////////////////////
+.design-badge {
+  background-color: #fef3c7;
+  color: #92400e !important;
+  border-radius: 20px;
+  padding: 4px 12px;
+}
+
+.dev-badge {
+  background-color: #dbeafe;
+  color: #1e40af !important;
+  border-radius: 20px;
+  padding: 4px 12px;
+}
+
+.faith-badge {
+  background-color: #fbe5d7;
+  color: #fc6701 !important;
+  border-radius: 20px;
+  padding: 4px 12px;
+}
+
+.lifestyle-badge {
+  background-color: #e3daf2;
+  color: #5b21b6 !important;
+  border-radius: 20px;
+  padding: 4px 12px;
+}
+//////////////////////////////////////////////BADGES CSS///////////////////////
 
 //Media queries
 /* Screen size 650px and below */

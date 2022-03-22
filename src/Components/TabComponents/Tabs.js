@@ -7,6 +7,7 @@ import moov from "../../images/thumbnails/Moov Thumbnail.jpg";
 import Performa from "../../images/thumbnails/Smart Performa Thumbnail.png";
 import Delivered from "../../images/thumbnails/Its Delivered Thumbnail.png";
 import Splufix from "../../images/thumbnails/Splufix Thumbnail.jpg";
+import dreampulze from "../../images/thumbnails/DreamPulze Thumbnail.jpg";
 
 import Cards from "../Cards/Cards";
 
@@ -25,27 +26,27 @@ const Tabs = () => {
       route: "./Design/Moov",
     },
     {
+      image: dreampulze,
+      title: "Dream Pulze",
+      role: "UI Designer",
+      route: "./Design/DreamPulze",
+    },
+    {
       image: Performa,
       title: "Smart Performa",
-      role: "Product Designer",
+      role: "UI Designer",
       route: "./Design/Smart-Performa",
     },
     {
       image: Delivered,
       title: "Its Delivered",
-      role: "Product Designer",
+      role: "UI Designer",
       route: "./Design/Its-Delivered",
     },
     {
       image: Splufix,
       title: "Splufix Project Managament Tool",
-      role: "Product Designer",
-      route: "./Design/Splufix",
-    },
-    {
-      image: Splufix,
-      title: "Splufix Project Managament Tool",
-      role: "Product Designer",
+      role: "UI Designer",
       route: "./Design/Splufix",
     },
   ];

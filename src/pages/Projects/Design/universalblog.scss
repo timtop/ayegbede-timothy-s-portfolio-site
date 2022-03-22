@@ -1,0 +1,42 @@
+//
+.designblog {
+  // Container for the header section
+  &-header-container {
+    margin: 0 auto;
+    width: 80%;
+  }
+  // The container for the article text
+  &-article-container {
+    margin: 60px auto 0px;
+    width: 60%;
+  }
+
+  &-img {
+    display: block;
+    border-radius: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .designblog {
+    // Container for the header section
+    &-header-container {
+      margin: 0 auto;
+      width: 100%;
+    }
+    // The container for the article text
+    &-article-container {
+      margin: 60px auto 0px;
+      width: 80%;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .designblog {
+    &-article-container {
+      margin: 60px auto 0px;
+      width: 90%;
+    }
+  }
+}
