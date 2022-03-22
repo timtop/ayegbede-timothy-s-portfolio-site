@@ -111,13 +111,13 @@ const Moov = () => {
         </article>
 
         <StaticImage
-          src="../../../images/thumbnails/Moov Thumbnail2.jpg"
+          src="../../../images/blog images/google map.png"
           alt="Design"
           placeholder="blurred"
           className="designblog-img margin-top-20"
           quality="100"
           width="1800"
-          height="1200"
+          height="1000"
         />
 
         <article className=" designblog-article-container">
@@ -141,13 +141,13 @@ const Moov = () => {
 
         <p className="article-bd-header-text margin-top-20">Wireframe</p>
         <StaticImage
-          src="../../../images/thumbnails/Moov Thumbnail2.jpg"
+          src="../../../images/blog images/moov wireframe.png"
           alt="Design"
           placeholder="blurred"
           className="designblog-img margin-top-20"
           quality="100"
-          width="1800"
-          height="1200"
+          width="1400"
+          height="572"
         />
 
         <p className="article-bd-header-text margin-top-20">
