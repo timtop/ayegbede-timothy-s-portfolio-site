@@ -1,5 +1,6 @@
 import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
+import Video from "../../../Components/Video/Video";
 import Layout from "../../../Layout/Layout";
 import "./universalblog.scss";
 
@@ -32,20 +33,21 @@ const Moov = () => {
         <article className=" designblog-article-container">
           <p className="article-bd-header-text">Overview</p>
           <div className="article-bd-web-text">
-            Set your destination and request a ride See the driver arrive in
-            real-time Pay in cash and in-app See the ride price upfront and know
-            how much you would be paying to your destination Users can rate
-            drivers to give feedback and improve the application.
+            There are a lot of ride-hailing applications, you would think why
+            should there be another one, well Moov addresses some issues people
+            have in mind
           </div>
 
           <p className="article-bd-header-text margin-top-20">
             Design Requirements
           </p>
           <div className="article-bd-web-text">
-            Set your destination and request a ride See the driver arrive in
-            real-time Pay in cash and in-app See the ride price upfront and know
-            how much you would be paying to your destination Users can rate
-            drivers to give feedback and improve the application
+            Set your destination and request a ride <br />
+            See the driver arrive in real-time <br />
+            Pay in cash and in-app <br />
+            See the ride price upfront and know how much you would be paying to
+            your destination <br />
+            Users can rate drivers to give feedback and improve the application
           </div>
 
           <p className="article-bd-header-text margin-top-20">User Persona</p>
@@ -132,9 +134,30 @@ const Moov = () => {
             Start — — — N300 <br />
             per KM — — N50/km * 15.7 = N785 <br />
             per min — — N20/min * 26min = N520 <br />
-            seats up to 4people{" "}
+            seats up to 4people <br />
+            Ride Price = N1,605
           </div>
         </article>
+
+        <p className="article-bd-header-text margin-top-20">Wireframe</p>
+        <StaticImage
+          src="../../../images/thumbnails/Moov Thumbnail2.jpg"
+          alt="Design"
+          placeholder="blurred"
+          className="designblog-img margin-top-20"
+          quality="100"
+          width="1800"
+          height="1200"
+        />
+
+        <p className="article-bd-header-text margin-top-20">
+          Animated Interaction
+        </p>
+
+        <Video
+          videoSrcURL="https://www.youtube.com/embed/H0KUdBkKfuA"
+          videoTitle="Moov video"
+        />
       </div>
     </Layout>
   );

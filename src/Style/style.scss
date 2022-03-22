@@ -30,6 +30,16 @@ $BackgroundColour: #fbfbfd;
   font-weight: 700;
 }
 
+@media (max-width: 425px) {
+  .article-bd-web-text {
+    font-family: "Inter", sans-serif;
+    color: $fontColor;
+    font-size: 16px;
+    line-height: 30px;
+    // font-weight: 300;
+  }
+}
+
 ////////////ARTICLE FONTS///////////////
 
 //Body text web
