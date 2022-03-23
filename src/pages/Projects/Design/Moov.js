@@ -74,12 +74,12 @@ const Moov = () => {
             Design Requirements
           </p>
           <div className="article-bd-web-text">
-            Set your destination and request a ride <br />
-            See the driver arrive in real-time <br />
-            Pay in cash and in-app <br />
-            See the ride price upfront and know how much you would be paying to
-            your destination <br />
-            Users can rate drivers to give feedback and improve the application
+            - Set your destination and request a ride <br />
+            - See the driver arrive in real-time <br />
+            - Pay in cash and in-app <br />
+            - See the ride price upfront and know how much you would be paying
+            to your destination <br />- Users can rate drivers to give feedback
+            and improve the application
           </div>
 
           <p className="article-bd-header-text margin-top-20">User Persona</p>
