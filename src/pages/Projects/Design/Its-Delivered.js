@@ -1,5 +1,6 @@
 import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
+import { Helmet } from "react-helmet";
 import Layout from "../../../Layout/Layout";
 import "./universalblog.scss";
 import { Link } from "gatsby";
@@ -7,6 +8,10 @@ import { Link } from "gatsby";
 const ItsDelivered = () => {
   return (
     <Layout>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Its-Delivered - Timothy Ayegbede's Website</title>
+      </Helmet>
       <div style={{ marginTop: "90px" }} className="container">
         <Link to="../../../Projects">
           {" "}
@@ -40,7 +45,7 @@ const ItsDelivered = () => {
         </Link>
 
         <div className="designblog-header-container">
-          <p className="hd-text-w margin-top-20">ItsDelivered</p>
+          <p className="hd-text-w margin-top-20">It's Delivered</p>
 
           <div className="bd-text-w margin-top-20">
             Role: <span className="design-badge">UI Designer</span>

@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Helmet } from "react-helmet";
 import Layout from "../Layout/Layout";
 import { StaticImage } from "gatsby-plugin-image";
 import LineButton from "../Components/LineButton/LineButton";
@@ -8,6 +9,10 @@ import "../Style/404.scss";
 const NotFoundPage = () => {
   return (
     <Layout>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>404 - Timothy Ayegbede's Website</title>
+      </Helmet>
       <div className="container err">
         {/* <img src={success} alt="Message sent" className="msg-confirm-img" /> */}
         <StaticImage

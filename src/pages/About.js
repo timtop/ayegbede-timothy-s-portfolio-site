@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Helmet } from "react-helmet";
 import "../Style/about.scss";
 // import design from "../images/Design-Image.svg";
 // import dev from "../images/Developer-Image.svg";
@@ -9,6 +10,10 @@ import { StaticImage } from "gatsby-plugin-image";
 const HomePage = () => {
   return (
     <Layout>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>About - Timothy Ayegbede's Website</title>
+      </Helmet>
       <div className="about-header ">
         <div className="container">
           <div className="about-header_wrap">

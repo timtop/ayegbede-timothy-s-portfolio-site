@@ -1,4 +1,6 @@
 import React from "react";
+import { Helmet } from "react-helmet";
+
 import "../Style/contact.scss";
 import confettii from "../images/confetii-2.png";
 import ContactForm from "../Components/Form/ContactForm";
@@ -7,6 +9,10 @@ import Layout from "../Layout/Layout";
 const Contact = () => {
   return (
     <Layout>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Contact - Timothy Ayegbede's Website</title>
+      </Helmet>
       <div className="contact-header ">
         <div className="container">
           <div className="contact-header_wrap">

@@ -1,5 +1,6 @@
 import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
+import { Helmet } from "react-helmet";
 import Layout from "../../../Layout/Layout";
 import "./universalblog.scss";
 import { Link } from "gatsby";
@@ -7,6 +8,10 @@ import { Link } from "gatsby";
 const DreamPulze = () => {
   return (
     <Layout>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>DreamPulze - Timothy Ayegbede's Website</title>
+      </Helmet>
       <div style={{ marginTop: "90px" }} className="container">
         <Link to="../../../Projects">
           {" "}

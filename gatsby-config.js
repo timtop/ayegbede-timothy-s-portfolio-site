@@ -14,12 +14,13 @@ module.exports = {
         // This object is used for configuration specific to this plugin
         pluginConfig: {
           // Puts tracking script in the head instead of the body
-          head: false,
+          head: true,
           // Defaults to https://www.googletagmanager.com
-          origin: "https://nervous-cori-ab4648.netlify.app/",
+          // origin: "https://nervous-cori-ab4648.netlify.app/",
         },
       },
     },
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

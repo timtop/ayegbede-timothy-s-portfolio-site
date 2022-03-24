@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import Layout from "../Layout/Layout";
 import { StaticImage } from "gatsby-plugin-image";
 import LineButton from "../Components/LineButton/LineButton";
@@ -7,6 +8,10 @@ import "../Style/blog.scss";
 const Blog = () => {
   return (
     <Layout>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Blog - Timothy Ayegbede's Website</title>
+      </Helmet>
       <div>
         <div className="blogg-bg">
           <div className="container blog">

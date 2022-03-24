@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 //Css import
 import "../Style/indexpage.scss";
 
@@ -20,6 +21,10 @@ const Index = () => {
 
   return (
     <div>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Timothy Ayegbede's Website</title>
+      </Helmet>
       <Navbar />
       <div className="index-page">
         <div className=" container hero ">
