@@ -32,16 +32,16 @@ const Tabs = () => {
       route: "./Design/DreamPulze",
     },
     {
-      image: Performa,
-      title: "Smart Performa",
-      role: "UI Designer",
-      route: "./Design/Smart-Performa",
-    },
-    {
       image: Delivered,
       title: "Its Delivered",
       role: "UI Designer",
       route: "./Design/Its-Delivered",
+    },
+    {
+      image: Performa,
+      title: "Smart Performa",
+      role: "UI Designer",
+      route: "./Design/Smart-Performa",
     },
     {
       image: Splufix,

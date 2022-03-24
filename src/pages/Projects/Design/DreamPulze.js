@@ -58,7 +58,7 @@ const DreamPulze = () => {
         />
 
         <article className=" designblog-article-container">
-          <p className="article-bd-header-text">About the Project</p>
+          <p className="article-bd-header-text">About DreamPulze</p>
           <div className="article-bd-web-text">
             DreamPulze is the world's first Technology Talent Curation and
             Incubation Cloud platform, focused on curating technology talent for
