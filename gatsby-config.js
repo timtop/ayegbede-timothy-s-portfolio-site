@@ -16,7 +16,7 @@ module.exports = {
           // Puts tracking script in the head instead of the body
           head: true,
           // Defaults to https://www.googletagmanager.com
-          // origin: "https://nervous-cori-ab4648.netlify.app/",
+          origin: "https://nervous-cori-ab4648.netlify.app/",
         },
       },
     },
