@@ -14,9 +14,7 @@ import profilePicture2 from "../images/profile-picture-1.png";
 import profilePicture1 from "../images/profile-picture-2.png";
 import LineButton from "../Components/LineButton/LineButton";
 // import Layout from "../Layout/Layout";
-import appleTouchIcon from "../favicon/apple-touch-icon.png";
-import thirtytwofav from "../favicon/favicon-32x32.png";
-import sixteenfav from "../favicon/favicon-16x16.png";
+
 // import webmani from "../favicon/site.webmanifest";
 
 const Index = () => {
@@ -28,9 +26,6 @@ const Index = () => {
       <Helmet>
         <link charSet="utf-8" />
         <title>Timothy Ayegbede's Website</title>
-        <link rel="apple-touch-icon" sizes="180x180" href={appleTouchIcon} />
-        <link rel="icon" type="image/png" sizes="32x32" href={thirtytwofav} />
-        <link rel="icon" type="image/png" sizes="16x16" href={sixteenfav} />
         {/* <link rel="manifest" href={webmani} /> */}
       </Helmet>
       <Navbar />

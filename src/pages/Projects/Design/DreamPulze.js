@@ -75,9 +75,83 @@ const DreamPulze = () => {
             I was a co-designer on this project, I worked with another amazing
             designer who had laid the foundation of the project, I worked on the
             Talent Hub section where companies and hiring managers come to hire
-            talent
+            talents and they could filter through to narrow down their search
+            and also on the Talent Plus section where
           </div>
         </article>
+
+        <p className="article-bd-header-text margin-top-20">Talent Hub</p>
+
+        <StaticImage
+          src="../../../images/blog images/DreamPulze 1.png"
+          alt="Design"
+          placeholder="blurred"
+          className="designblog-img margin-top-20"
+          quality="100"
+          width="2762"
+          height="1884"
+        />
+
+        <StaticImage
+          src="../../../images/blog images/DreamPulze 2.png"
+          alt="Design"
+          placeholder="blurred"
+          className="designblog-img margin-top-20"
+          quality="100"
+          width="2762"
+          height="2632"
+        />
+
+        <p className="article-bd-header-text margin-top-20">Talent Plus</p>
+        <StaticImage
+          src="../../../images/blog images/DreamPulze 3.png"
+          alt="Design"
+          placeholder="blurred"
+          className="designblog-img margin-top-20"
+          quality="100"
+          width="2762"
+          height="1894"
+        />
+
+        <StaticImage
+          src="../../../images/blog images/DreamPulze 4.png"
+          alt="Design"
+          placeholder="blurred"
+          className="designblog-img margin-top-20"
+          quality="100"
+          width="2762"
+          height="2072"
+        />
+
+        <StaticImage
+          src="../../../images/blog images/DreamPulze 5.png"
+          alt="Design"
+          placeholder="blurred"
+          className="designblog-img margin-top-20"
+          quality="100"
+          width="2762"
+          height="2290"
+        />
+
+        <StaticImage
+          src="../../../images/blog images/DreamPulze 6.png"
+          alt="Design"
+          placeholder="blurred"
+          className="designblog-img margin-top-20"
+          quality="100"
+          width="2762"
+          height="1910"
+        />
+
+        <StaticImage
+          src="../../../images/blog images/DreamPulze 7.png"
+          alt="Design"
+          placeholder="blurred"
+          className="designblog-img margin-top-20"
+          quality="100"
+          width="2762"
+          height="1910"
+        />
       </div>
     </Layout>
   );

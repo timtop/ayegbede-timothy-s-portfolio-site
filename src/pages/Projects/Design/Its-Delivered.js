@@ -65,16 +65,15 @@ const ItsDelivered = () => {
         <article className=" designblog-article-container">
           <p className="article-bd-header-text">About It's Delivered</p>
           <div className="article-bd-web-text">
-            It's Delivered is a logistics comapany that need to manage it's
+            It's Delivered is a logistics comapany that needed to manage it's
             riders on a digital platform
           </div>
 
           <p className="article-bd-header-text margin-top-20">What I did </p>
           <div className="article-bd-web-text">
-            I was a co-designer on this project, I worked with another amazing
-            designer who had laid the foundation of the project, I worked on the
-            Talent Hub section where companies and hiring managers come to hire
-            talent
+            As the designer on the project, I worked to simplify the "enter text
+            of what yout did",into an intuitive processes and clean interfaces
+            with easy to understand data visualizations.
           </div>
         </article>
       </div>
