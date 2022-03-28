@@ -76,6 +76,70 @@ const ItsDelivered = () => {
             with easy to understand data visualizations.
           </div>
         </article>
+
+        <p className="article-bd-header-text margin-top-20">
+          Screens from the design{" "}
+        </p>
+
+        <StaticImage
+          src="../../../images/blog images/itsdelivered/Browser - Login 1.png"
+          alt="Design"
+          placeholder="blurred"
+          className="designblog-img margin-top-20"
+          quality="100"
+          width="1382"
+          height="944"
+        />
+
+        <StaticImage
+          src="../../../images/blog images/itsdelivered/Browser - Login 2.png"
+          alt="Design"
+          placeholder="blurred"
+          className="designblog-img margin-top-20"
+          quality="100"
+          width="1382"
+          height="1398"
+        />
+
+        <StaticImage
+          src="../../../images/blog images/itsdelivered/Browser - Login 3.png"
+          alt="Design"
+          placeholder="blurred"
+          className="designblog-img margin-top-20"
+          quality="100"
+          width="1382"
+          height="1892"
+        />
+
+        <StaticImage
+          src="../../../images/blog images/itsdelivered/Browser - Login 4.png"
+          alt="Design"
+          placeholder="blurred"
+          className="designblog-img margin-top-20"
+          quality="100"
+          width="1382"
+          height="1026"
+        />
+
+        <StaticImage
+          src="../../../images/blog images/itsdelivered/Browser - Login 5.png"
+          alt="Design"
+          placeholder="blurred"
+          className="designblog-img margin-top-20"
+          quality="100"
+          width="1382"
+          height="1087"
+        />
+
+        <StaticImage
+          src="../../../images/blog images/itsdelivered/Browser - Login 6.png"
+          alt="Design"
+          placeholder="blurred"
+          className="designblog-img margin-top-20"
+          quality="100"
+          width="1382"
+          height="1026"
+        />
       </div>
     </Layout>
   );
