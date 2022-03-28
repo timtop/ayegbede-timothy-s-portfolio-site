@@ -3,7 +3,7 @@ import "./Cards.scss";
 import Img from "../Img/Img";
 import { Link } from "gatsby";
 
-const Cards = ({ image, title, role, route }) => {
+const Cards = ({ image, title, role, route, pillDisplay, descDisplay }) => {
   return (
     <div className="card">
       <Link to={route}>
@@ -13,7 +13,18 @@ const Cards = ({ image, title, role, route }) => {
       <p className="card-title hd-text-w-smaller-small">{title}</p>
       <div className="card-role">
         {" "}
-        <span className="card-role bd-text-w design-badge">{role}</span>
+        <span
+          style={{ display: pillDisplay ? "inline" : "none" }}
+          className="card-role bd-text-w design-badge"
+        >
+          {role}
+        </span>
+        <p
+          style={{ display: descDisplay ? "inline" : "none" }}
+          className="bd-text-w"
+        >
+          Description of the card where applicable
+        </p>
       </div>
     </div>
   );

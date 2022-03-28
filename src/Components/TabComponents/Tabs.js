@@ -4,9 +4,9 @@ import TabContent from "./TabContent";
 import "./Tabs.scss";
 
 import moov from "../../images/thumbnails/Moov Thumbnail.jpg";
-import Performa from "../../images/thumbnails/Smart Performa Thumbnail.png";
+// import Performa from "../../images/thumbnails/Smart Performa Thumbnail.png";
 import Delivered from "../../images/thumbnails/Its Delivered Thumbnail.png";
-import Splufix from "../../images/thumbnails/Splufix Thumbnail.jpg";
+// import Splufix from "../../images/thumbnails/Splufix Thumbnail.jpg";
 import dreampulze from "../../images/thumbnails/DreamPulze Thumbnail.jpg";
 
 import Cards from "../Cards/Cards";
@@ -24,31 +24,37 @@ const Tabs = () => {
       title: "Moov - A ride-hailing app",
       role: "Product Designer",
       route: "./Design/Moov",
+      pillDisplay: true,
+      descDisplay: true,
     },
     {
       image: dreampulze,
       title: "Dream Pulze",
       role: "UI Designer",
       route: "./Design/DreamPulze",
+      pillDisplay: true,
+      descDisplay: true,
     },
     {
       image: Delivered,
       title: "Its Delivered",
       role: "UI Designer",
       route: "./Design/Its-Delivered",
+      pillDisplay: true,
+      descDisplay: true,
     },
-    {
-      image: Performa,
-      title: "Smart Performa",
-      role: "UI Designer",
-      route: "./Design/Smart-Performa",
-    },
-    {
-      image: Splufix,
-      title: "Splufix Project Managament Tool",
-      role: "UI Designer",
-      route: "./Design/Splufix",
-    },
+    // {
+    //   image: Performa,
+    //   title: "Smart Performa",
+    //   role: "UI Designer",
+    //   route: "./Design/Smart-Performa",
+    // },
+    // {
+    //   image: Splufix,
+    //   title: "Splufix Project Managament Tool",
+    //   role: "UI Designer",
+    //   route: "./Design/Splufix",
+    // },
   ];
 
   useEffect(() => {
@@ -100,6 +106,7 @@ const Tabs = () => {
                   title={item.title}
                   role={item.role}
                   route={item.route}
+                  pillDisplay={item.pillDisplay}
                 />
               );
             })}
@@ -108,7 +115,20 @@ const Tabs = () => {
 
         {/* Dev Tab Begins */}
         <TabContent id="tab2" activeTab={activeTab}>
-          <div>Front-End Development!</div>
+          <div className="hd-text-w-smaller">Front-End Dev.</div>
+          <div className="card-holder">
+            {cardItems.map((item) => {
+              return (
+                <Cards
+                  image={item.image}
+                  title={item.title}
+                  role={item.role}
+                  route={item.route}
+                  descDisplay={item.descDisplay}
+                />
+              );
+            })}
+          </div>
         </TabContent>
       </div>
     </div>
