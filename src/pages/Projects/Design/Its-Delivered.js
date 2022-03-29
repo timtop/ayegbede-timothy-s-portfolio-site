@@ -71,9 +71,9 @@ const ItsDelivered = () => {
 
           <p className="article-bd-header-text margin-top-20">What I did </p>
           <div className="article-bd-web-text">
-            As the designer on the project, I worked to simplify the "enter text
-            of what yout did",into an intuitive processes and clean interfaces
-            with easy to understand data visualizations.
+            As the designer on the project, I worked to simplify the applicaton
+            from an existing wireframe,into an intuitive processes and clean
+            interfaces with easy to understand visualizations.
           </div>
         </article>
 

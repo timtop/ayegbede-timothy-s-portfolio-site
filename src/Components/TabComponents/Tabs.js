@@ -116,7 +116,7 @@ const Tabs = () => {
         {/* Dev Tab Begins */}
         <TabContent id="tab2" activeTab={activeTab}>
           <div className="hd-text-w-smaller">Front-End Dev.</div>
-          <div className="card-holder">
+          {/* <div className="card-holder">
             {cardItems.map((item) => {
               return (
                 <Cards
@@ -128,7 +128,8 @@ const Tabs = () => {
                 />
               );
             })}
-          </div>
+          </div> */}
+          Still under construction...
         </TabContent>
       </div>
     </div>

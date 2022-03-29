@@ -119,7 +119,7 @@ const ContactForm = () => {
           </select>
         </label>
         {errors.service?.type === "required" && (
-          <p>Opps! you forgot the select a service</p>
+          <p>Oops! you forgot the select a service</p>
         )}
 
         <br />
