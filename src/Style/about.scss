@@ -94,3 +94,9 @@
     }
   }
 }
+
+@media (max-width: 425px) {
+  br {
+    display: none;
+  }
+}

@@ -22,8 +22,8 @@ const HomePage = () => {
             </div>
             <p className="about-header_description bd-text-w">
               I’m delighted in bringing well-designed interfaces to life to
-              position your business, brand or application at the forefront, I
-              co-exist in the world of design and web development
+              position your business, brand or <br /> application at the
+              forefront, I co-exist in the world of design and web development.
             </p>
           </div>
         </div>
@@ -42,8 +42,8 @@ const HomePage = () => {
           <div className="hd-text-w-smaller">Designer</div>
           <p className="design-description_text bd-text-w">
             I'm a Product Designer with a strong background in mobile and web
-            design, I create intuitive, simple and consistent experience from
-            conception to implementation
+            design, <br /> I create intuitive, simple and consistent experience
+            from conception to implementation.
           </p>
         </div>
       </div>
@@ -53,7 +53,7 @@ const HomePage = () => {
           <div className="hd-text-w-smaller">Front-End Developer</div>
           <p className="dev-description_text bd-text-w">
             I implement designs with popular frameworks and technologies to
-            almost pixel perfection
+            almost pixel perfection.
           </p>
         </div>
         {/* <img src={dev} alt="Developer" className="dev-img" /> */}
