@@ -5,10 +5,12 @@ import "../Style/contact.scss";
 import confettii from "../images/confetii-2.png";
 import ContactForm from "../Components/Form/ContactForm";
 import Layout from "../Layout/Layout";
+import Seo from "../Components/Seo/Seo";
 
 const Contact = () => {
   return (
     <Layout>
+      <Seo title="Contact" />
       <Helmet>
         <meta charSet="utf-8" />
         <title>Contact - Timothy Ayegbede's Website</title>

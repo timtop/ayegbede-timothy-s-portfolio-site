@@ -6,10 +6,12 @@ import "../Style/about.scss";
 import PrimaryButton from "../Components/Primary Button/PrimaryButton";
 import Layout from "../Layout/Layout";
 import { StaticImage } from "gatsby-plugin-image";
+import Seo from "../Components/Seo/Seo";
 
 const HomePage = () => {
   return (
     <Layout>
+      <Seo title="About" />
       <Helmet>
         <meta charSet="utf-8" />
         <title>About - Timothy Ayegbede's Website</title>

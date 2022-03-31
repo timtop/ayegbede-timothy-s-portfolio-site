@@ -14,7 +14,7 @@ import profilePicture2 from "../images/profile-picture-1.png";
 import profilePicture1 from "../images/profile-picture-2.png";
 import LineButton from "../Components/LineButton/LineButton";
 // import Layout from "../Layout/Layout";
-
+import Seo from "../Components/Seo/Seo.js";
 // import webmani from "../favicon/site.webmanifest";
 
 const Index = () => {
@@ -23,6 +23,7 @@ const Index = () => {
 
   return (
     <div>
+      <Seo title="Homepage" />
       <Helmet>
         <link charSet="utf-8" />
         <title>Timothy Ayegbede's Website</title>

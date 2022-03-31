@@ -14,7 +14,7 @@ module.exports = {
       options: {
         // You can add multiple tracking ids and a pageview event will be fired for all of them.
         trackingIds: [
-          "G-J48CLD63B8", // Google Analytics / GA
+          "G-1421877350", // Google Analytics / GA
         ],
         // This object gets passed directly to the gtag config command
         // This config will be shared across all trackingIds
@@ -33,7 +33,7 @@ module.exports = {
           exclude: ["/preview/**", "/do-not-track/me/too/"],
 
           // Defaults to https://www.googletagmanager.com
-          origin: "https://nervous-cori-ab4648.netlify.app/",
+          origin: "https://nervous-cori-ab4648.netlify.app",
         },
       },
     },

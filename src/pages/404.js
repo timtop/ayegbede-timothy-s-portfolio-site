@@ -4,11 +4,13 @@ import Layout from "../Layout/Layout";
 import { StaticImage } from "gatsby-plugin-image";
 import LineButton from "../Components/LineButton/LineButton";
 import "../Style/404.scss";
+import Seo from "../Components/Seo/Seo";
 
 // markup
 const NotFoundPage = () => {
   return (
     <Layout>
+      <Seo title="404: Not found" />
       <Helmet>
         <meta charSet="utf-8" />
         <title>404 - Timothy Ayegbede's Website</title>

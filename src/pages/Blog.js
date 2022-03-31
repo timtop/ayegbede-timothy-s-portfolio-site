@@ -4,10 +4,13 @@ import Layout from "../Layout/Layout";
 import { StaticImage } from "gatsby-plugin-image";
 import LineButton from "../Components/LineButton/LineButton";
 import "../Style/blog.scss";
+import Seo from "../Components/Seo/Seo";
 
 const Blog = () => {
   return (
     <Layout>
+      <Seo title="Blog" />
+
       <Helmet>
         <meta charSet="utf-8" />
         <title>Blog - Timothy Ayegbede's Website</title>
