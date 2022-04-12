@@ -17,6 +17,11 @@ import LineButton from "../Components/LineButton/LineButton";
 import Seo from "../Components/Seo/Seo.js";
 // import webmani from "../favicon/site.webmanifest";
 
+import appleTouchIcon from "../favicon/apple-touch-icon.png";
+import thirtytwofav from "../favicon/favicon-32x32.png";
+import sixteenfav from "../favicon/favicon-16x16.png";
+import previewImage from "../images/Website Preview.jpg";
+
 const Index = () => {
   const number = Math.floor(Math.random() * 2) + 1;
   const heroPicture = number === 1 ? profilePicture1 : profilePicture2;
@@ -27,6 +32,10 @@ const Index = () => {
       <Helmet>
         <link charSet="utf-8" />
         <title>Timothy Ayegbede's Website</title>
+        <link rel="apple-touch-icon" sizes="180x180" href={appleTouchIcon} />
+        <link rel="icon" type="image/png" sizes="32x32" href={thirtytwofav} />
+        <link rel="icon" type="image/png" sizes="16x16" href={sixteenfav} />
+        <meta property="og:image" content={previewImage} />
         {/* <link rel="manifest" href={webmani} /> */}
       </Helmet>
       <Navbar />

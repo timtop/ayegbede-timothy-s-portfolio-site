@@ -1,10 +1,12 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://nervous-cori-ab4648.netlify.app",
+    // siteUrl: "https://nervous-cori-ab4648.netlify.app",
+    siteUrl: "http://timothyayegbede.com",
     title: "Timothy Ayegbede's Portfolio Site",
-    titleTemplate: "%s · The Real Hero",
+    titleTemplate: "%s · Portfolio Website",
     description: "Welcome to Timothy Ayegbede's Website.",
-    url: "https://nervous-cori-ab4648.netlify.app", // No trailing slash allowed!
+    // url: "https://nervous-cori-ab4648.netlify.app", // No trailing slash allowed!
+    url: "http://timothyayegbede.com", // No trailing slash allowed!
     image: "./images/Website Preview.jpg", // Path to the image placed in the 'static' folder, in the project's root directory.
     twitterUsername: "@just_timothy_",
   },
