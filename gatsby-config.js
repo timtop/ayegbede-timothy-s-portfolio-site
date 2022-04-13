@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
     // siteUrl: "https://nervous-cori-ab4648.netlify.app",
-    siteUrl: "http://timothyayegbede.com",
+    siteUrl: "https://timothyayegbede.com",
     title: "Timothy Ayegbede's Portfolio Site",
     titleTemplate: "%s · Portfolio Website",
     description: "Welcome to Timothy Ayegbede's Website.",
     // url: "https://nervous-cori-ab4648.netlify.app", // No trailing slash allowed!
-    url: "http://timothyayegbede.com", // No trailing slash allowed!
+    url: "https://timothyayegbede.com", // No trailing slash allowed!
     image: "./images/Website Preview.jpg", // Path to the image placed in the 'static' folder, in the project's root directory.
     twitterUsername: "@just_timothy_",
   },
@@ -16,7 +16,7 @@ module.exports = {
       options: {
         // You can add multiple tracking ids and a pageview event will be fired for all of them.
         trackingIds: [
-          "G-1421877350", // Google Analytics / GA
+          "G-ZK3GP1XQKT", // Google Analytics / GA
         ],
         // This object gets passed directly to the gtag config command
         // This config will be shared across all trackingIds
@@ -35,7 +35,7 @@ module.exports = {
           exclude: ["/preview/**", "/do-not-track/me/too/"],
 
           // Defaults to https://www.googletagmanager.com
-          origin: "https://nervous-cori-ab4648.netlify.app",
+          origin: "https://www.timothyayegbede.com",
         },
       },
     },
