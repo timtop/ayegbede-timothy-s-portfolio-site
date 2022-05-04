@@ -156,9 +156,9 @@ const Index = () => {
             </div>
           </div>
         </div>
-        <div className="container checkout">
-          <LineButton content="Check out my work" route="/Projects" />
-        </div>
+      </div>
+      <div className="container checkout">
+        <LineButton content="Check out my work" route="/Projects" />
       </div>
       <HomeTab />
     </Layout>
