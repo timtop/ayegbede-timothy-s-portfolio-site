@@ -7,6 +7,7 @@ import PrimaryButton from "../Components/Primary Button/PrimaryButton";
 import Layout from "../Layout/Layout";
 import { StaticImage } from "gatsby-plugin-image";
 import Seo from "../Components/Seo/Seo";
+import resume from "../Timothy Ayegbede's Resume.pdf";
 
 const HomePage = () => {
   return (
@@ -80,11 +81,20 @@ const HomePage = () => {
               solve problems and meet their needs.
             </p>
 
-            <PrimaryButton
+            {/* <PrimaryButton
               value="View Resume"
               margin="margin-top-16"
               icon={true}
-            />
+            /> */}
+
+            <a href={resume}>
+              {" "}
+              <PrimaryButton
+                value="View Resume"
+                margin="margin-top-16"
+                icon={true}
+              />
+            </a>
           </div>
         </div>
       </div>
