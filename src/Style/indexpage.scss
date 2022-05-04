@@ -1,7 +1,7 @@
 @import "../Style/style.scss";
 
 .index-page {
-  height: 100vh;
+  // height: 100vh;
   margin-top: calc(100vh * 0.1);
 }
 
@@ -82,5 +82,24 @@ svg:hover {
       justify-content: space-between;
       align-items: center;
     }
+  }
+}
+
+// Screen sizes between 651px and 742px
+@media (min-width: 651px) and (max-width: 742px) {
+  .hero {
+    &-socials {
+      & > a {
+        margin-right: 20px;
+        fill: $fontColor;
+      }
+    }
+  }
+}
+
+@media (min-width: 770px) and (max-width: 857px) {
+  svg {
+    width: 20px;
+    height: 20px;
   }
 }

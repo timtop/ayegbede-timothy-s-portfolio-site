@@ -1,0 +1,55 @@
+@import "../../Style/style.scss";
+
+.home-project-tab {
+  background-color: $BackgroundColour;
+  padding: 20px 0px 0px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px !important;
+  z-index: 10;
+}
+
+// TabNavItem styling
+.home-tabactive {
+  color: $primaryColor;
+  border-bottom: 4px solid $primaryColor;
+  border-radius: 4px;
+  background-color: $BackgroundColour;
+}
+
+.home-tabunactive {
+  background-color: $BackgroundColour;
+}
+
+// .home-button {
+//   border-bottom: 1px solid red;
+// }
+
+button {
+  background-color: $BackgroundColour;
+  border: none;
+  padding-bottom: 20px;
+  font-size: 17px !important;
+  cursor: pointer;
+  padding: 20px 40px 20px 40px;
+}
+
+// .home-sticky {
+//   position: fixed;
+//   top: 0;
+//   width: 100%;
+// }
+
+.home-outlet {
+  margin-top: 50px !important;
+}
+
+.home-card-holder {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  row-gap: 70px;
+}

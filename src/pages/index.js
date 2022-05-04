@@ -2,10 +2,12 @@ import React from "react";
 import { Helmet } from "react-helmet";
 //Css import
 import "../Style/indexpage.scss";
+import HomeTab from "../Components/HomeTab/TabHome";
 
 //Component youtu
-import Navbar from "../Components/Navbar/Navbar";
+// import Navbar from "../Components/Navbar/Navbar";
 import Img from "../Components/Img/Img";
+import Layout from "../Layout/Layout";
 
 //image import
 import activelogo from "../images/Active.svg";
@@ -27,7 +29,7 @@ const Index = () => {
   const heroPicture = number === 1 ? profilePicture1 : profilePicture2;
 
   return (
-    <div>
+    <Layout>
       <Seo title="Homepage" />
       <Helmet>
         <link charSet="utf-8" />
@@ -38,7 +40,7 @@ const Index = () => {
         <meta property="og:image" content={previewImage} />
         {/* <link rel="manifest" href={webmani} /> */}
       </Helmet>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="index-page">
         <div className=" container hero ">
           <div className="hero-text flexchild">
@@ -158,7 +160,8 @@ const Index = () => {
           <LineButton content="Check out my work" route="/Projects" />
         </div>
       </div>
-    </div>
+      <HomeTab />
+    </Layout>
   );
 };
 
