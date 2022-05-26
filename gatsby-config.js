@@ -35,7 +35,7 @@ module.exports = {
           exclude: ["/preview/**", "/do-not-track/me/too/"],
 
           // Defaults to https://www.googletagmanager.com
-          origin: "https://www.timothyayegbede.com",
+          // origin: "https://www.timothyayegbede.com",
         },
       },
     },
