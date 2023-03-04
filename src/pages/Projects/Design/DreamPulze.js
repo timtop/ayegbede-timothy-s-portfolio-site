@@ -75,8 +75,8 @@ const DreamPulze = () => {
             I was a co-designer on this project, I worked with another amazing
             designer who had laid the foundation of the project, I worked on the
             Talent Hub section where companies and hiring managers come to hire
-            talents and they could filter through to narrow down their search
-            and also on the Talent Plus section where
+            talents and they could filter through to narrow down their search.
+            {/* and also on the Talent Plus section where */}
           </div>
         </article>
 
