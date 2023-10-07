@@ -48,8 +48,8 @@ const Index = () => {
               Hi, <br /> I'm Timothy Ayegbede
             </p>
             <p className="bd-text-w bd-text-m margin-top-16 ">
-              I'm a Product Designer and Frontend
-              <br className="mobile-break" /> Developer based in Lagos Nigeria.
+              I'm a Product Designer currently based in Lagos Nigeria.
+              {/* <br className="mobile-break" /> Developer based in Lagos Nigeria. */}
             </p>
             {/* <div className="margin-top-16 bd-text-success-w bd-text-success-m green-active">
               <img src={activelogo} alt="Green Active" className="activelogo" />
@@ -61,7 +61,7 @@ const Index = () => {
             <PrimaryButton
               value="Contact me"
               margin="margin-top-16"
-              icon={true}
+              icon={false}
               route="/Contact"
             />
           </div>

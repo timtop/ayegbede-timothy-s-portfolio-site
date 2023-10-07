@@ -92,7 +92,7 @@ const HomePage = () => {
               <PrimaryButton
                 value="View Resume"
                 margin="margin-top-16"
-                icon={true}
+                icon={false}
               />
             </a>
           </div>
