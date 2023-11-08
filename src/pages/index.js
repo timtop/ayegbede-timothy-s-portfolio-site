@@ -51,13 +51,13 @@ const Index = () => {
               I'm a Product Designer currently based in Lagos Nigeria.
               {/* <br className="mobile-break" /> Developer based in Lagos Nigeria. */}
             </p>
-            {/* <div className="margin-top-16 bd-text-success-w bd-text-success-m green-active">
+            <div className="margin-top-16 bd-text-success-w bd-text-success-m green-active">
               <img src={activelogo} alt="Green Active" className="activelogo" />
 
               <span className="padding-left-16 green-active-text">
                 I'm currently available to work
               </span>
-            </div> */}
+            </div>
             <PrimaryButton
               value="Contact me"
               margin="margin-top-16"
