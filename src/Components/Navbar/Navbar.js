@@ -18,10 +18,7 @@ const navItems = [
     navItem: "Contact",
     navigation: "/Contact",
   },
-  {
-    navItem: "Blog",
-    navigation: "/Blog",
-  },
+
 ];
 
 //Component begins

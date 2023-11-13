@@ -54,7 +54,7 @@ const Index = () => {
             <div className="margin-top-16 bd-text-success-w bd-text-success-m green-active">
               <img src={activelogo} alt="Green Active" className="activelogo" />
 
-              <span className="padding-left-16 green-active-text">
+              <span className="padding-left-8 green-active-text">
                 I'm currently available to work
               </span>
             </div>
