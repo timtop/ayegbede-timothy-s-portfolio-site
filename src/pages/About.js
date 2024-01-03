@@ -24,9 +24,13 @@ const HomePage = () => {
               A bit more about me
             </div>
             <p className="about-header_description bd-text-w">
-              I’m delighted in bringing well-designed interfaces to life to
+              {/* I’m delighted in bringing well-designed interfaces to life to
               position your business, brand or <br /> application at the
-              forefront, I co-exist in the world of design and web development.
+              forefront, I co-exist in the world of design and web development. */}
+
+              I'm an experienced product designer adept at creating user-centric solutions through design thinking. 
+              Skilled in collaborating <br /> across diverse teams to deliver aesthetically pleasing and functional products that exceed expectations.
+              Proficient in <br /> design tools, dedicated to staying current with industry trends for ongoing enhancement of product design.
             </p>
           </div>
         </div>
