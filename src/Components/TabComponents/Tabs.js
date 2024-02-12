@@ -4,7 +4,7 @@ import TabContent from "./TabContent";
 import "./Tabs.scss";
 
 import moov from "../../images/thumbnails/Moov Thumbnail.jpg";
-// import Performa from "../../images/thumbnails/Smart Performa Thumbnail.png";
+import ei from "../../images/thumbnails/EI Thumbnail.jpg";
 import Delivered from "../../images/thumbnails/Its Delivered Thumbnail.png";
 // import Splufix from "../../images/thumbnails/Splufix Thumbnail.jpg";
 import dreampulze from "../../images/thumbnails/DreamPulze Thumbnail.jpg";
@@ -59,6 +59,14 @@ const Tabs = () => {
       route: "./Design/Moov",
       pillDisplay: true,
       descDisplay: true,
+    },
+    {
+      image: ei,
+      title: "Estate Intel",
+      role: "Coming Soon",
+      route: "",
+      pillDisplay: true,
+
     },
     {
       image: dreampulze,

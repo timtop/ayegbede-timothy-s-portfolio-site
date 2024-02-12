@@ -4,7 +4,7 @@ import TabContentHome from "./TabContentHome";
 import "./TabHome.scss";
 
 import moov from "../../images/thumbnails/Moov Thumbnail.jpg";
-// import Performa from "../../images/thumbnails/Smart Performa Thumbnail.png";
+import ei from "../../images/thumbnails/EI Thumbnail.jpg";
 import Delivered from "../../images/thumbnails/Its Delivered Thumbnail.png";
 // import Splufix from "../../images/thumbnails/Splufix Thumbnail.jpg";
 import dreampulze from "../../images/thumbnails/DreamPulze Thumbnail.jpg";
@@ -51,6 +51,7 @@ const TabHome = () => {
   ];
 
   const cardItems = [
+   
     {
       image: moov,
       title: "Moov - A ride-hailing app",
@@ -58,6 +59,14 @@ const TabHome = () => {
       route: "/Projects/Design/Moov",
       pillDisplay: true,
       descDisplay: true,
+    },
+    {
+      image: ei,
+      title: "Estate Intel",
+      role: "Coming Soon",
+      route: "/",
+      pillDisplay: true,
+
     },
     {
       image: dreampulze,
@@ -75,12 +84,6 @@ const TabHome = () => {
       pillDisplay: true,
       descDisplay: true,
     },
-    // {
-    //   image: Performa,
-    //   title: "Smart Performa",
-    //   role: "UI Designer",
-    //   route: "./Design/Smart-Performa",
-    // },
     // {
     //   image: Splufix,
     //   title: "Splufix Project Managament Tool",
